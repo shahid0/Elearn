@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/Elearn/static/css/main.fd39262e.chunk.css",
-    "main.js": "/Elearn/static/js/main.4f1e5a60.chunk.js",
-    "main.js.map": "/Elearn/static/js/main.4f1e5a60.chunk.js.map",
+    "main.css": "/Elearn/static/css/main.70e03dc2.chunk.css",
+    "main.js": "/Elearn/static/js/main.26140ef9.chunk.js",
+    "main.js.map": "/Elearn/static/js/main.26140ef9.chunk.js.map",
     "runtime-main.js": "/Elearn/static/js/runtime-main.ca5fe63f.js",
     "runtime-main.js.map": "/Elearn/static/js/runtime-main.ca5fe63f.js.map",
     "static/js/2.7aa0a4db.chunk.js": "/Elearn/static/js/2.7aa0a4db.chunk.js",
     "static/js/2.7aa0a4db.chunk.js.map": "/Elearn/static/js/2.7aa0a4db.chunk.js.map",
     "index.html": "/Elearn/index.html",
-    "static/css/main.fd39262e.chunk.css.map": "/Elearn/static/css/main.fd39262e.chunk.css.map",
+    "static/css/main.70e03dc2.chunk.css.map": "/Elearn/static/css/main.70e03dc2.chunk.css.map",
     "static/js/2.7aa0a4db.chunk.js.LICENSE.txt": "/Elearn/static/js/2.7aa0a4db.chunk.js.LICENSE.txt",
     "static/media/img1.6fe0b8d0.jpg": "/Elearn/static/media/img1.6fe0b8d0.jpg",
     "static/media/img2.f7559886.png": "/Elearn/static/media/img2.f7559886.png",
@@ -17,7 +17,7 @@
   "entrypoints": [
     "static/js/runtime-main.ca5fe63f.js",
     "static/js/2.7aa0a4db.chunk.js",
-    "static/css/main.fd39262e.chunk.css",
-    "static/js/main.4f1e5a60.chunk.js"
+    "static/css/main.70e03dc2.chunk.css",
+    "static/js/main.26140ef9.chunk.js"
   ]
 }
