@@ -1,0 +1,50 @@
+.containerLogin .LoginBox .Login{
+    width: 230px;
+    margin: 10px;
+}
+.containerLogin .LoginBox{
+    height: auto;
+    margin-bottom: 100px;
+}
+.containerLogin {
+    display: flex;
+    flex-direction: column;
+    background-color: #fafafc;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    transition: 1s;
+}
+.containerLogin .LoginBox .Login input{
+    outline-color: orange;
+    outline-offset: -1px;
+    height: 40px;
+}
+.containerLogin h1,.containerLogin h2{
+    margin: 0;
+    font-weight: 500;
+    font-size: 40px;
+    margin-bottom: 4px;
+}
+.containerLogin h2{
+    font-weight: 300;
+    margin-bottom: 20px;
+    font-size: 30px;
+}
+.containerLogin .LoginBox .LoginBtn button{
+    width: 100px;
+    height: 35px;
+    font-size: 13px;
+    font-weight: 200;
+    padding: 0;
+    margin-left: 20px;
+}
+.containerLogin .LoginBox .LoginBtn {
+    display: flex;
+}
+.containerLogin h3{
+    text-align: center;
+    color: red;
+    margin: 10px;
+    font-size: 10px;
+}

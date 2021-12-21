@@ -1,0 +1,66 @@
+import { Icon, Text } from 'react-atomize'
+import classes from './Navbar.module.css'
+
+
+
+function Navbar({ RouteChangers }) {
+    const Lists = [
+        {
+            id: 1,
+            names: 'Learn More'
+        },
+        {
+            id: 2,
+            names: 'Get Started'
+        },
+        {
+            id: 3,
+            names: 'Sign In'
+        },
+        {
+            id: 4,
+            names: 'Create Account'
+        }
+    ];
+
+    const Items = Lists.map((nam, index) => {
+        if (Lists[index].names === "Sign In") {
+            return (
+                <li key={Lists[index].id}
+                    className={classes.li}
+                    onClick={ ()=> RouteChangers("Login") }
+                >
+                    {Lists[index].names}
+
+                </li>
+            )
+        }
+        return (
+            <li key={Lists[index].id}
+                className={classes.li}
+            >
+                {Lists[index].names}
+
+            </li>
+        )
+    });
+
+    return (
+        <div className={classes.conatiner}>
+            <div className={classes.navbar}>
+                <Text tag="h1" textSize="display1" m={{ b: "5px", l: "20px" }}>
+                    Brand Name
+                </Text>
+                <nav className={classes.nav}>
+                    <div className={classes.navContainer}>
+                        <ul>
+                            {Items}
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    );
+}
+
+export default Navbar;

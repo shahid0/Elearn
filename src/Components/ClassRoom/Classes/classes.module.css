@@ -1,0 +1,41 @@
+.wel{
+    font-size: 50px;
+    margin: 0;
+    padding: 20px;
+    background-color: #1e5be5;
+    color: #192e19;
+    font-weight: 200;
+    box-shadow: 0 1px 13px 0 rgba(0, 0, 0,0.7);
+    text-transform: capitalize;
+    font-feature-settings: "smcp";
+    font-variant: small-caps;
+}
+.wel span{
+    font-weight: 500;
+}
+.cont{
+    display: flex;
+    width: 100%;
+    padding-left:260px;
+    text-align: center;
+    flex-direction: column;
+}
+.clist{
+    flex-wrap: wrap;
+    height: 90vh;
+    overflow: scroll;
+    justify-content: center;
+}
+@media screen and (max-width: 889px) {
+    .cont{
+        padding: 0;
+    }
+    .wel{
+        padding: 20px;
+        font-size: 30px;
+    }
+    .clist{
+        height: 86vh;
+    }
+    
+}
