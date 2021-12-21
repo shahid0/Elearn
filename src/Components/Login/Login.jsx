@@ -31,6 +31,8 @@ const handlePassInput = (e) => {
 }
 const checkData = (Rchange, noti) => {
     if (userI === "shadow" && passI === "shadow") {
+        userI = ""
+        passI = ""
         Rchange("Room")
     }
     else {
