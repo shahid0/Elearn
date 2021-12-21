@@ -1,7 +1,7 @@
 .wel{
     font-size: 50px;
     margin: 0;
-    padding: 20px;
+    padding:15px;
     background-color: #1e5be5;
     color: #192e19;
     font-weight: 200;
@@ -16,14 +16,15 @@
 .cont{
     display: flex;
     width: 100%;
-    padding-left:260px;
+    /* padding-left:260px; */
     text-align: center;
     flex-direction: column;
 }
 .clist{
     flex-wrap: wrap;
-    height: 90vh;
-    overflow: scroll;
+    /* height: 90vh; */
+    /* overflow: scroll; */
+    background-color: whitesmoke;
     justify-content: center;
 }
 @media screen and (max-width: 889px) {
@@ -31,11 +32,10 @@
         padding: 0;
     }
     .wel{
-        padding: 20px;
         font-size: 30px;
     }
-    .clist{
+    /* .clist{
         height: 86vh;
-    }
+    } */
     
 }
