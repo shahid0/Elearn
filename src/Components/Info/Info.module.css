@@ -144,6 +144,9 @@
         flex-direction: column;
         padding: 0;
     }
+    .twoBox{
+        margin-bottom: 40px;
+    }
 
     .twoBox .BoxOne, .twoBox .BoxSec {
         width: 95%;

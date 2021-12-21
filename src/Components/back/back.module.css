@@ -1,0 +1,7 @@
+.c{
+    display: flex;
+}
+.c button{
+    z-index: 99;
+    left: calc(50% - 25px);
+}
