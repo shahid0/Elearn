@@ -9,6 +9,7 @@ import Navbar from './Components/Navbar/Navbar';
 import Login from './Components/Login/Login'
 import Room from './Components/ClassRoom/Room'
 import GoBack from './Components/back/Back';
+import VideosPage from './Components/ClassRoom/VideosPage/VideosPage';
 
 const theme = {
   ...DefaultTheme,
@@ -29,7 +30,14 @@ class App extends react.Component {
       Route: "Land",
     }
   }
-
+  vClassData = {}
+  vClassesData = (classCode , Teacher ,sName) => {
+    this.vClassData = {
+      classCode: classCode,
+      Teacher: Teacher,
+      CName: sName
+    }
+  }
   prevArr = []
 
   RouteChanger = (R) => {
@@ -40,13 +48,13 @@ class App extends react.Component {
   }
   getBack = () => {
     this.setState({
-      Route: this.prevArr[this.prevArr.length-1]
+      Route: this.prevArr[this.prevArr.length - 1]
     })
     this.prevArr.pop();
+    console.log(this.vClassData)
   }
   render() {
     if (this.state.Route === "Login") {
-      alert("Username : shadow | Password : shadow")
       return (
         <ThemeProvider theme={theme}>
           <GoBack getBack={this.getBack} />
@@ -58,7 +66,15 @@ class App extends react.Component {
       return (
         <ThemeProvider theme={theme}>
           <GoBack getBack={this.getBack} />
-          <Room />
+          <Room vClassesData={this.vClassesData} RouteChangers={this.RouteChanger} />
+        </ThemeProvider>
+      )
+    }
+    else if (this.state.Route === "vPage") {
+      return (
+        <ThemeProvider theme={theme}>
+          <GoBack getBack={this.getBack} />
+          <VideosPage classData ={this.vClassData }/>
         </ThemeProvider>
       )
     }

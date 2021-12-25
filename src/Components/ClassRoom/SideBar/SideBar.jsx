@@ -39,11 +39,11 @@ import ClasEs from '../Classes/Classes'
 //     )
 // }
 
-const SideBar = () => {
+const SideBar = ({vClassesData , RouteChangers}) => {
     return (
         <>
             {/* <DeskT /> */}
-            <ClasEs />
+            <ClasEs vClassesData={vClassesData} RouteChangers={RouteChangers} />
         </>
     )
 }

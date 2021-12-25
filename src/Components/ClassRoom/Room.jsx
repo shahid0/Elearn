@@ -1,10 +1,10 @@
 import SideBar from "./SideBar/SideBar"
 import classes from './Room.module.css'
 
-const Room = () => {
+const Room = ({vClassesData , RouteChangers}) => {
     return (
         <div className={classes.Cont}>
-            <SideBar />
+            <SideBar vClassesData={vClassesData} RouteChangers={RouteChangers} />
         </div>
     )
 }

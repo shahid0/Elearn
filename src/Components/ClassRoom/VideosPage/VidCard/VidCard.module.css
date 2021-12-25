@@ -1,4 +1,4 @@
-.cardCont{
+.vidCont{
     width: 250px;
     height: 120px;
     background-color: rgb(87, 87, 212);
@@ -10,21 +10,18 @@
     margin: 10px;
     flex-direction: column;
     border-radius: 5px;
-    flex-basis:100% ;
     position: relative;
-    cursor: pointer;
-    transition: 300ms ease;
 }
-.cardCont :is(h1 , h2 ,h4){
-    margin: 2px 10px;
+.vidCont img{
+    width: 100%;
+    aspect-ratio: 5 / 3.5 ;
+}
+.vidCont :is(h1 , h2 ,h4){
+    margin: 0px 10px;
     font-size: 20px;
     font-weight: 400;
 }
-.cardCont :is(h2 , h4){
-    font-size: 15px;
-    font-weight: 300;
-}
-.cardCont::before{
+.vidCont::before{
     content: '';
     width: 10px;
     height: 60px;
@@ -32,10 +29,4 @@
     border-radius: 10px;
     position: absolute;
     background-color: #00000080;
-}
-.cardCont:hover{
-    transform: scale(0.98);
-    border-right:15px solid rgb(167, 163, 163);
-    border-top-left-radius: 30px;
-    border-bottom-left-radius: 30px;
 }

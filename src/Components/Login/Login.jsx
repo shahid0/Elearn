@@ -19,7 +19,7 @@ const Nnot = ({ noti, dangerDark }) => {
                 />
             }
         >
-            Username Or Password Invalid
+            Username or Password Invalid
         </Notification>
     )
 }
