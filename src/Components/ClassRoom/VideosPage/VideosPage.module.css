@@ -1,6 +1,7 @@
 .vidCont{
     flex-direction: row;
     flex-wrap: wrap;
+    margin: auto auto auto 20px;
 }
 @media screen and (max-width:680px) {
     .vidCont{

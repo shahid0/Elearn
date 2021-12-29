@@ -28,7 +28,6 @@ const VideosPage = ({ classData }) => {
                 {
                     vids.map((i, x) => <VidCard key={x} thumb={vids[x].thumb} tittle={vids[x].tittle} dateUploaded={vids[x].dateUploaded} />)
                 }
-                {/* <VidCard /> */}
             </div>
 
         </div>
