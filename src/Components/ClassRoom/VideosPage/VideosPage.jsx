@@ -2,18 +2,33 @@ import React from 'react'
 import VidCard from './VidCard/VidCard';
 import classes from './VideosPage.module.css'
 
+const vids = [{
+    thumb: 'https://picsum.photos/1920/1080?random=2',
+    tittle: 'This is just a test tittle for the video so dont mind'
+
+},
+{
+    thumb: 'https://picsum.photos/1920/1080?random=2',
+    tittle: 'This is just a test tittle for the video so dont mind'
+},
+{
+    thumb: 'https://picsum.photos/1920/1080?random=2',
+    tittle: 'This is just a test tittle for the video so dont mind'
+},
+{
+    thumb: 'https://picsum.photos/1920/1080?random=2',
+    tittle: 'This is just a test tittle for the video so dont mind'
+}]
+
 const VideosPage = ({ classData }) => {
-    const { classCode, Teacher, CName } = classData;
+    // const { classCode, Teacher, CName } = classData;
     return (
         <div className={`${classes.mCont} gCont`}>
-            <div className={`${classes.datCont} gCont`}>
-                <h1>{CName}</h1>
-                <h2>{Teacher}</h2>
-                <h3>{classCode}</h3>
-            </div>
             <div className={`${classes.vidCont} gCont`}>
-                <VidCard />
-
+                {
+                    vids.map((i, x) => <VidCard key={x} thumb={vids[x].thumb} tittle={vids[x].tittle} dateUploaded={vids[x].dateUploaded} />)
+                }
+                {/* <VidCard /> */}
             </div>
 
         </div>

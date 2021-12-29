@@ -1,16 +1,16 @@
 .cardCont{
     width: 250px;
     height: 120px;
-    background-color: rgb(87, 87, 212);
+    background-color: #48455469;
     box-shadow: 0 1px 6px 3px rgba(0, 0, 0, 0.315);
-    border-left: 40px solid rgb(157 157 255);
-    color: #fff;
+    border-left: 40px solid #ada9bb75;
+    color: #ffffff;
     align-items: flex-start;
     justify-content: center;
-    margin: 10px;
+    margin: 3px 10px;
     flex-direction: column;
     border-radius: 5px;
-    flex-basis:100% ;
+    flex-basis: 100%;
     position: relative;
     cursor: pointer;
     transition: 300ms ease;
@@ -31,7 +31,7 @@
     left: -25px;
     border-radius: 10px;
     position: absolute;
-    background-color: #00000080;
+    background-color: #ada9bb;
 }
 .cardCont:hover{
     transform: scale(0.98);

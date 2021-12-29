@@ -1,25 +1,10 @@
-
-.mCont {
-    position: relative;
-    width: 100%;
-    min-height: 100vh;
-    /* justify-content: center; */
+.vidCont{
+    flex-direction: row;
+    flex-wrap: wrap;
 }
-.datCont {
-    width:300px;
-    height: 99vh;
-    background-color: rgb(0, 0, 0);
-    align-items: center;
-    /* justify-content: center; */
-    color: white;
-    border-radius: 9px ;
-    margin: 2px;
-    flex-direction: column;
-    position: fixed;
-    right: 0;
-}
-@media screen and (max-width : 1050px) {
-    .datCont{
-        display: none;
+@media screen and (max-width:680px) {
+    .vidCont{
+        justify-content: space-evenly;
     }
+    
 }

@@ -1,32 +1,47 @@
-.vidCont{
-    width: 250px;
-    height: 120px;
-    background-color: rgb(87, 87, 212);
-    box-shadow: 0 1px 6px 3px rgba(0, 0, 0, 0.315);
-    border-left: 40px solid rgb(157 157 255);
-    color: #fff;
-    align-items: flex-start;
-    justify-content: center;
-    margin: 10px;
-    flex-direction: column;
-    border-radius: 5px;
+.cardC1 {
+    font-size: 1vw;
+    margin: 5px;
+    border-radius: 4px;
+    overflow: hidden;
+    box-shadow: 0 2px 5px 2px rgba(0,0, 0, 0.37);
+}
+
+.cardC2 {
+    width: clamp(10rem, 15em, 20em);
+    min-width: clamp(10rem, 15em, 20em);
+    /* background-color: rgba(19, 18, 18, 0.349); */
+}
+
+.cardC3 {
+    width: clamp(10rem, 15em, 20em);
+    height: clamp(6.4rem, 10em, 15em);
+    /* background-color: rgba(0, 0, 0, 0.466); */
+}
+.cardC3 :is(img){
+    width: 100%;
+    height: 100%;
+}
+.cardC2 :is(h1) {
+    margin: 1px 0;
+    padding: 5px 10px 10px 5px;
+    border-left:30px solid rgba(197, 197, 197, 0.514); ;
+    font-size: 15px;
+    line-height: 1.1;
+    letter-spacing: 0.024em;
+    font-weight: 500;
+    font-style: normal;
     position: relative;
 }
-.vidCont img{
-    width: 100%;
-    aspect-ratio: 5 / 3.5 ;
-}
-.vidCont :is(h1 , h2 ,h4){
-    margin: 0px 10px;
-    font-size: 20px;
-    font-weight: 400;
-}
-.vidCont::before{
+.cardC2 > h1::before{
     content: '';
-    width: 10px;
-    height: 60px;
-    left: -25px;
-    border-radius: 10px;
+    width: 20px;
     position: absolute;
-    background-color: #00000080;
+    z-index: 99;
+    border-radius: 10px;
+    box-shadow: 0 20px 0 rgba(22, 22, 29, 0.37),
+    0 40px 0 rgba(22, 22, 29, 0.37),
+    0 60px 0 rgba(22, 22, 29, 0.37);
+    height: 5px;
+    background-color: rgba(22, 22, 29, 0.37);
+    left: -25px;
 }

@@ -1,42 +1,50 @@
-.wel{
+.wel {
     font-size: 50px;
     margin: 0;
-    padding:15px;
-    background-color: #1e5be5;
-    color: rgb(0 0 0 / 70%);
+    padding: 15px;
+    font-family: monospace;
+    background-color: #363246;
+    color: #eee9ff;
     font-weight: 200;
-    text-shadow: 2px 3px 7px rgb(0 0 0 / 40%);
-    box-shadow: 0 1px 13px 0 rgba(0, 0, 0,0.7);
+    text-shadow: 1px 1px 0px rgb(0 0 0 / 30%),
+        1px 1px 0px rgb(0 0 0 / 30%),
+        1px 1px 0px rgb(0 0 0 / 30%),
+        1px 1px 0px rgb(0 0 0 / 30%),
+        1px 1px 0px rgb(0 0 0 / 30%),
+        1px 1px 0px rgb(0 0 0 / 30%);
+    box-shadow: 0 1px 13px 0 rgba(0, 0, 0, 0.7);
     text-transform: capitalize;
     font-feature-settings: "smcp";
     font-variant: small-caps;
 }
-.wel span{
+
+.wel span {
     font-weight: 500;
 }
-.cont{
+.dsd{
+    display: inline;
+}
+
+.cont {
     display: flex;
     width: 100%;
-    /* padding-left:260px; */
     text-align: center;
+    background-color: #1a1a20;
     flex-direction: column;
 }
-.clist{
+
+.clist {
     flex-wrap: wrap;
-    /* height: 90vh; */
-    /* overflow: scroll; */
-    background-color: whitesmoke;
     justify-content: center;
 }
+
 @media screen and (max-width: 889px) {
-    .cont{
+    .cont {
         padding: 0;
     }
-    .wel{
+
+    .wel {
         font-size: 30px;
     }
-    /* .clist{
-        height: 86vh;
-    } */
-    
+
 }
