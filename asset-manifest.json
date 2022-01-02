@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/Elearn/static/css/main.485b3cb4.chunk.css",
-    "main.js": "/Elearn/static/js/main.9150970d.chunk.js",
-    "main.js.map": "/Elearn/static/js/main.9150970d.chunk.js.map",
+    "main.css": "/Elearn/static/css/main.ccbcd8e3.chunk.css",
+    "main.js": "/Elearn/static/js/main.13d886bf.chunk.js",
+    "main.js.map": "/Elearn/static/js/main.13d886bf.chunk.js.map",
     "runtime-main.js": "/Elearn/static/js/runtime-main.ca5fe63f.js",
     "runtime-main.js.map": "/Elearn/static/js/runtime-main.ca5fe63f.js.map",
     "static/js/2.83aa0ede.chunk.js": "/Elearn/static/js/2.83aa0ede.chunk.js",
     "static/js/2.83aa0ede.chunk.js.map": "/Elearn/static/js/2.83aa0ede.chunk.js.map",
     "index.html": "/Elearn/index.html",
-    "static/css/main.485b3cb4.chunk.css.map": "/Elearn/static/css/main.485b3cb4.chunk.css.map",
+    "static/css/main.ccbcd8e3.chunk.css.map": "/Elearn/static/css/main.ccbcd8e3.chunk.css.map",
     "static/js/2.83aa0ede.chunk.js.LICENSE.txt": "/Elearn/static/js/2.83aa0ede.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.ca5fe63f.js",
     "static/js/2.83aa0ede.chunk.js",
-    "static/css/main.485b3cb4.chunk.css",
-    "static/js/main.9150970d.chunk.js"
+    "static/css/main.ccbcd8e3.chunk.css",
+    "static/js/main.13d886bf.chunk.js"
   ]
 }
