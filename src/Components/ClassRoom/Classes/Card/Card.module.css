@@ -1,13 +1,13 @@
 .cardCont{
     width: 250px;
     height: 120px;
-    background-color: #48455469;
+    background-color: #ffffff04;
     box-shadow: 0 1px 6px 3px rgba(0, 0, 0, 0.315);
-    border-left: 40px solid #ada9bb75;
+    border-left: 40px solid #b5b5b517;
     color: #ffffff;
     align-items: flex-start;
     justify-content: center;
-    margin: 3px 10px;
+    margin: 5px 10px;
     flex-direction: column;
     border-radius: 5px;
     flex-basis: 100%;
@@ -31,7 +31,7 @@
     left: -25px;
     border-radius: 10px;
     position: absolute;
-    background-color: #ada9bb;
+    background-color: #ada9bb47;
 }
 .cardCont:hover{
     transform: scale(0.98);

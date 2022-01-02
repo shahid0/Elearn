@@ -1,14 +1,16 @@
 import classes from './VidCard.module.css'
 
-const VidCard = ({ thumb, tittle}) => {
+const VidCard = ({ thumb, tittle }) => {
     return (
         <>
-            <div className={classes.cardC1}>
-                <div className={classes.cardC2}>
-                    <div className={classes.cardC3}>
-                        <img src={thumb} alt="" />
+            <div className={classes.cards}>
+                <div className={classes.card}>
+                    <img src={thumb} alt='thumb' />
+                    <div className={classes.cardBody}>
+                        <h2>{tittle}</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+                        <h5>By Dr.phil</h5>
                     </div>
-                    <h1>{tittle}</h1>
                 </div>
             </div>
         </>

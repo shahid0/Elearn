@@ -45,8 +45,10 @@ const Login = ({ RouteChangers }) => {
 
     return (
         <div className={classes.containerLogin}>
-            <h1>Lets Sign In</h1>
-            <h2>Welcome Back</h2>
+            <div className={classes.textCont}>
+                <h1>Lets Sign In</h1>
+                <h2>Welcome Back</h2>
+            </div>
             <div className={classes.LoginBox}>
                 <div className={classes.Login}>
                     <Input
@@ -125,7 +127,7 @@ const Login = ({ RouteChangers }) => {
                     >
                         Register
                     </Button>
-                    <Nnot noti={noti} dangerDark = {dangerDark} />
+                    <Nnot noti={noti} dangerDark={dangerDark} />
                 </div>
             </div>
         </div>

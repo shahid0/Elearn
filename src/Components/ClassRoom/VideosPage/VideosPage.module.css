@@ -1,11 +1,25 @@
 .vidCont{
     flex-direction: row;
     flex-wrap: wrap;
-    margin: auto auto auto 20px;
+    justify-content: space-evenly;
 }
-@media screen and (max-width:680px) {
-    .vidCont{
-        justify-content: space-evenly;
+.datCont{
+    flex-basis: clamp(300px,50%,1200px);
+    width: 100%;
+    background-color: coral;
+}
+.mCont{
+    flex-direction: row-reverse;
+    text-align: center;
+}
+
+@media screen and (max-width:1000px) {
+    .mCont{
+        flex-direction: column;
+    }
+    .datCont{
+        flex-basis: 100%;
+        margin: 0;
     }
     
 }
