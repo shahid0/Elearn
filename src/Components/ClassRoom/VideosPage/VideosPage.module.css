@@ -1,25 +1,95 @@
-.vidCont{
+.vidCont {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-evenly;
 }
-.datCont{
-    flex-basis: clamp(300px,50%,1200px);
+
+.datCont {
+    flex-basis: clamp(300px, 45%, 1200px);
     width: 100%;
-    background-color: coral;
-}
-.mCont{
-    flex-direction: row-reverse;
-    text-align: center;
+    color: #fff;
+    background-color: #024B6F;
 }
 
+.mCont {
+    flex-direction: row-reverse;
+    text-align: center;
+    position: relative;
+}
+.textCont{
+    margin-top: 100px;
+    padding: 5px 10px;
+    background-color: #17171c;
+}
+
+.textCont :is(h1, h2, h3) {
+    margin: 10px 5px;
+    font-family: monospace;
+    font-weight: lighter;
+}
+.vidPlayer{
+    position: fixed;
+    display: flex;
+    background-color: #000000d1;
+    width: 100vw;
+    height: 100vh;
+    top:50%;
+    justify-content: center;
+    left: 50%;
+    transform: translate(-50%,-50%);    
+}
+.center{
+    align-items: center;
+}
+.vidPlayer .close,.vidPlayer .close::after{
+    content: '';
+    width:5px;
+    height: 40px;
+    position: absolute;
+    top: 40px;
+    right: 40px;
+    transform: rotate(45deg);
+    background-color: white;
+}
+.vidPlayer .close::after{
+    transform: rotate(267deg);
+    background-color: transparent;
+    box-shadow: 38px 41px #ffffff;
+}
+.vidPlayer .inc{
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 35px;
+    right: 20px;
+    cursor: pointer;
+    z-index: 99;
+}
+.posB{
+    position: fixed;
+    bottom: 15px;
+    right: clamp(5px , 1vw ,50px);
+}
+.vidPlayer .notiCont{
+    margin: 30px 10px;
+    color: white;
+}
+.notiCont h1{
+    padding: 20px 40px;
+    background-color: #17171c;
+    border-radius: 20px;
+}
 @media screen and (max-width:1000px) {
-    .mCont{
+    .mCont {
         flex-direction: column;
     }
-    .datCont{
+
+    .datCont {
         flex-basis: 100%;
         margin: 0;
     }
-    
+    .textCont{
+        margin: 10px;
+    }
+
 }

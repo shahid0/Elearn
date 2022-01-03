@@ -1,9 +1,9 @@
 import classes from './VidCard.module.css'
 
-const VidCard = ({ thumb, tittle }) => {
+const VidCard = ({ thumb, tittle ,Sstate,state }) => {
     return (
         <>
-            <div className={classes.cards}>
+            <div className={classes.cards} onClick={()=> Sstate(!state)}>
                 <div className={classes.card}>
                     <img src={thumb} alt='thumb' />
                     <div className={classes.cardBody}>

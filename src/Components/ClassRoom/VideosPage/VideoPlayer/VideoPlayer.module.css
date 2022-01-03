@@ -1,0 +1,12 @@
+.player{
+    width: 720px;
+    height: 400px;
+}
+
+@media screen and (max-width:725px) {
+    .player{
+      width: 320px;
+      height: 270px;
+    }
+    
+}

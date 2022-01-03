@@ -108,8 +108,6 @@ const Login = ({ RouteChangers }) => {
                         }
                         shadow="3"
                         hoverShadow="4"
-                        bg="black800"
-                        hoverBg="black500"
                         m={{ r: "0.06rem" }}
                         // onClick={() => RouteChangers("Room")}
                         onClick={() => checkData(RouteChangers, noti)}
@@ -120,8 +118,6 @@ const Login = ({ RouteChangers }) => {
                     <Button
                         shadow="3"
                         hoverShadow="4"
-                        bg="black800"
-                        hoverBg="black500"
                         p={{ r: "1.5rem", l: "1rem" }}
                         maxW="95.5px"
                     >

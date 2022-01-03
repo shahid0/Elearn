@@ -1,36 +1,11 @@
-.wel {
-    font-size: 50px;
-    margin: 0;
-    padding: 15px;
-    font-family: monospace;
-    background-color: #00000000;
-    color: #eee9ff;
-    font-weight: 200;
-    text-shadow: 1px 1px 0px rgb(0 0 0 / 30%),
-        1px 1px 0px rgb(0 0 0 / 30%),
-        1px 1px 0px rgb(0 0 0 / 30%),
-        1px 1px 0px rgb(0 0 0 / 30%),
-        1px 1px 0px rgb(0 0 0 / 30%),
-        1px 1px 0px rgb(0 0 0 / 30%);
-    box-shadow: 0 1px 13px 0 rgba(0, 0, 0, 0.7);
-    text-transform: capitalize;
-    font-feature-settings: "smcp";
-    font-variant: small-caps;
-    margin-bottom: 10px;
-}
-
-.wel span {
-    font-weight: 500;
-}
 .dsd{
     display: inline;
 }
-
 .cont {
     display: flex;
     width: 100%;
     text-align: center;
-    background-color: #17171c;
+    background-color: rgb(5 51 74);
     flex-direction: column;
 }
 

@@ -1,5 +1,6 @@
 import classes from './classes.module.css'
 import Card from './Card/Card'
+import CurrentPage from '../../CurrentPage/CurrentPage';
 const ClasList = ({ vClassesData , RouteChangers }) => {
     const cL = [
         {
@@ -76,9 +77,7 @@ const ClasEs = ({vClassesData , RouteChangers}) => {
     return (
         <>
             <div className={classes.cont}>
-                <h2 className={classes.wel}>
-                    <span> Current </span> Classes
-                </h2>
+                <CurrentPage  Cpage="Current Classes"/>
                 <div className={`${classes.clist} gCont`}>
                     <ClasList vClassesData={vClassesData} RouteChangers={RouteChangers} />
                 </div>

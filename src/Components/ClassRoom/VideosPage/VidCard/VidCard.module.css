@@ -4,10 +4,10 @@
   }
   
   .card {
-    background: #fff;
+    background: #024B6F;
     width: 20em;
     border-radius: 0.6em;
-    margin: 10px 7px; 
+    margin: 10px 7px;
     overflow: hidden;
     cursor: pointer;
     box-shadow: 0 13px 27px -5px hsla(240, 30.1%, 28%, 0.25), 0 8px 16px -8px hsla(0, 0%, 0%, 0.3), 0 -6px 16px -6px hsla(0, 0%, 0%, 0.03);
@@ -25,7 +25,7 @@
   }
   
   .card h2 {
-    color: #222;
+    color: #ffffff;
     margin-top: -0.2em;
     line-height: 1.4;
     font-size: 1.3em;
@@ -35,11 +35,11 @@
   }
   
   .card p {
-    color: #777;
+    color: #a9a9a9;
   }
   
   .card h5 {
-    color: #bbb;
+    color: #878787;
     font-weight: 700;
     font-size: 0.7em;
     letter-spacing: 0.04em;

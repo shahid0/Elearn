@@ -27,7 +27,7 @@ class App extends react.Component {
   constructor() {
     super()
     this.state = {
-      Route: "Room",
+      Route: "Land",
     }
   }
   vClassData = {}

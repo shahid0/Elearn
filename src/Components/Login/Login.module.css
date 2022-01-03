@@ -48,10 +48,14 @@
     width: 100px;
     height: 35px;
     font-size: 13px;
+    background-color: #024B6F;
     font-weight: 200;
     padding: 0;
     margin-left: 20px;
 }
 .containerLogin .LoginBox .LoginBtn {
     display: flex;
+}
+.containerLogin .LoginBox .LoginBtn button:hover{
+    background-color: #024b6fd9;
 }
